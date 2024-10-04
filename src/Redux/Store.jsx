@@ -1,5 +1,4 @@
 import { configureStore, createSlice } from "@reduxjs/toolkit";
-import React from "react";
 
 const todosSlice = createSlice({
   name: "todos",

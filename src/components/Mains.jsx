@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, Menu, theme } from "antd";
+import { Layout, theme } from "antd";
 import TaskApp from "./TaskApp";
 const { Content } = Layout;
 

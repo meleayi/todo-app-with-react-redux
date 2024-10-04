@@ -1,20 +1,12 @@
 import React from "react";
-import { Layout, Menu, Button, theme } from "antd";
+import { Layout, Button, theme } from "antd";
 import { MenuFoldOutlined, MenuUnfoldOutlined } from "@ant-design/icons";
 
 const { Header } = Layout;
 
-const items1 = ["1", "2", "3"].map((key) => ({
-  key,
-  label: `nav ${key}`,
-}));
-
-{
-}
-
 const Headers = ({ collapsed, setCollapsed }) => {
   const {
-    token: { colorBgContainer, borderRadiusLG },
+    token: { colorBgContainer },
   } = theme.useToken();
   console.log(theme.useToken());
   return (

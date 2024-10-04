@@ -1,6 +1,6 @@
 import React from "react";
 import CardDetail from "./CardDetail";
-import { addTodo, removeTodo, updateTodo } from "../../Redux/Store";
+import { removeTodo, updateTodo } from "../../Redux/Store";
 import { useDispatch, useSelector } from "react-redux";
 
 const TaskCard = () => {
