@@ -5,7 +5,7 @@ import Sides from "../components/Sides";
 import Footers from "../components/Footers";
 import { Outlet } from "react-router-dom";
 
-const { Header, Content } = Layout;
+const { Content } = Layout;
 
 const Layouts = () => {
   const [collapsed, setCollapsed] = useState(false);
